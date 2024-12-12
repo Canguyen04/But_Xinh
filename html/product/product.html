@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Điện thoại</title>
+    <link rel="stylesheet" href="/css/Lib.css" />
+    <link rel="stylesheet" href="/css/product/product.css" />
+    <link rel="stylesheet" href="/css/product/responsive_pr.css" />
+    <script src="/vendor/bootstrap.js" defer></script>
+    <script src="/vendor/jquery-3.6.0.min.js" defer></script>
+    <script src="/js/main.js" defer></script>
+    <script src="/js/product/product.js" defer></script>
+  </head>
+  <body>
+    <nav
+      id="header"
+      class="navbar navbar-default navbar-fixed-top"
+      role="navigation"
+    ></nav>
+    <div class="container__top">
+      <div class="container__intro">
+        <div class="container__intro--title"></div>
+        <!-- <div class="container__intro--memory nav__pc"></div> -->
+        <div class="container__intro--price">
+          <small class="product__item--priceOld"></small>
+          <b class="product__item--priceNew"></b>
+        </div>
+      </div>
+    </div>
+    <div class="container product--detail">
+      <div class="row">
+        <div class="product__intro col-xs-12 col-sm-12 col-md-6 col-lg-6">
+          <div class="product__intro-fixed">
+            <div class="product__intro--img">
+              <img
+                style
+                onerror="this.src='/img/imgNotLinkPen.png'"
+                src=""
+                alt=""
+              />
+            </div>
+            <div class="product__intro--ship row">
+              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <i class="fa fa-car" aria-hidden="true"></i> <br />
+                Giao hàng nhanh chóng
+              </div>
+              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <i class="fa fa-undo" aria-hidden="true"></i> <br />
+                Dễ dàng hoàn trả
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+          <span class="label label-danger">New</span>
+          <h1 class="product__infor--title"></h1>
+
+          <div class="product__infor--option">
+            <h5>Màu sắc</h5>
+            <div class="product__infor--option--color">
+              <b class="color--blue"></b>
+              <b class="color-purple"></b>
+              <b class="color--red"></b>
+              <b class="color--black"></b>
+            </div>
+          </div>
+          <ul class="list-group product__infor--more">
+            <h5>Thông số kĩ thuật</h5>
+            <li class="list-group-item">Thương hiệu: Thiên Long</li>
+            <li class="list-group-item">Đường kính viên bi: 0.7 mm</li>
+            <li class="list-group-item">Trọng lượng: 11 gram</li>
+            <li class="list-group-item">Đóng gói: 20 cây / hộp</li>
+          </ul>
+          <a
+            class="btn btn-danger"
+            onclick="addCart();"
+            href="/html/shopping__cart/shopping_cart.html"
+            >Mua ngay</a
+          >
+          <b
+            class="btn btn-success"
+            onclick="addCart(); return alert('Thêm thành công')"
+            >Thêm giỏ hàng</b
+          >
+          <div class="review">
+            <h2>Đặc điểm:</h2>
+            <p>
+              - Bút sử dụng cơ cấu bấm, thân tròn và chắc chắn.Thân bút làm từ
+              nhựa màu đục. Giắt bút bằng kim loại mạ crom sáng bóng. Tảm có đệm
+              mềm (grip) giúp cầm êm tay và giảm trơn trượt khi viết. Đầu bút
+              dạng cone , 0.7mm sản xuất tại Thụy Sĩ.
+            </p>
+            <p>- Bút bi dạng bấm khế, có grip.</p>
+
+            <h2>Lợi ích:</h2>
+            <p>
+              - Grip giúp êm tay và giảm trơn tuột khi viết thường xuyên. - Giắt
+              được làm bằng kim loại, tảm và nút xi kim loại sáng bóng tạo sự
+              sang trọng. - Sản phẩm phù hợp cho sinh viên, giáo viên và giới
+              văn phòng. - Thiết kế trẻ trung kiểu dáng mạnh mẽ
+            </p>
+            <h2>Bảo quản:</h2>
+            <p>- Nhiệt độ: 10 ~ 55º C. - Độ ẩm: 55 ~ 95% RH.</p>
+            <img src="/img/review/TLreview.png" alt="" />
+            <img src="/img/review/TLreview1.png" alt="" />
+            <img src="/img/review/TLreview2.png" alt="" />
+            <img src="/img/review/TLreview3.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer id="footer"></footer>
+  </body>
+</html>
