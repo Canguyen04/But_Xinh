@@ -430,6 +430,7 @@ Array.from(listControlItems).forEach((item) => {
                         <td>1</td>
                         <td>Bút bi - Ballpoint Pen Candee Thiên Long TL-019</td>
                         <td>120000</td>
+                        <td>Xanh</td>
                         <td>Thiên Long</td>
                         <td>Bi</td>
                         <td>0.7 mm</td>
