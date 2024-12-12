@@ -5,7 +5,7 @@ let nibValues = ['0.5 mm', '0.6 mm', '0.7 mm', '0.8 mm', 'Đầu đạn'];
 let typeValues = ['Bi', 'Chì', 'Lông']
 class Product {
     static lastProductID = 0;
-    constructor(name, price, color, img, brand, type, nib) {
+    constructor(name, price, color, img, brand, type, nib, sale) {
         this.productID = (Product.getProducts() === null) ? ++Product.lastProductID : Product.getLastProductID() + 1;
         this.name = name;
         this.price = price;
@@ -14,6 +14,7 @@ class Product {
         this.brand = brand.toLowerCase();
         this.type = type
         this.nib = nib
+        this.sale = sale
     }
     // Lấy danh sách sản phẩm trả về mảng
     static getProducts() {
@@ -49,8 +50,8 @@ class Product {
         return myList[myList.length - 1].productID;
     }
     // Thêm sản phẩm mới
-    static addProduct(name, price, color, img, brand, type, nib) {
-        const product = new Product(name, price, color, img, brand, type, nib)
+    static addProduct(name, price, color, img, brand, type, nib, sale) {
+        const product = new Product(name, price, color, img, brand, type, nib, sale)
         const list = Product.getProducts();
         list.push(product);
         Product.loadProducts(list);
@@ -58,7 +59,7 @@ class Product {
 
     }
     //Cập nhật sản phẩm
-    static updateProduct(productID, name, price, color, img, brand, type, nib,) {
+    static updateProduct(productID, name, price, color, img, brand, type, nib, sale) {
         const listProduct = Product.getProducts();
 
         if (!listProduct || listProduct.length === 0) return null;
@@ -71,6 +72,7 @@ class Product {
                 product.brand = brand
                 product.type = type
                 product.nib = nib
+                product.sale = sale
             }
         })
         Product.loadProducts(listProduct)
