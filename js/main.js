@@ -3,7 +3,7 @@ let taiKhoang = JSON.parse(localStorage.getItem("taiKhoang")) || false;
 let account = JSON.parse(localStorage.getItem("listAcc")) || [];
 let dataBrands = [];
 let dataClassify = {
-  vn: ["Bút bi", "Bút  chì", "Bút lông", "Bút máy"],
+  vn: ["Bút bi", "Bút  chì", "Bút lông"],
   en: ["high", "medium", "low"],
 };
 let dataSlides = [];
@@ -228,7 +228,7 @@ function returnSort(dataSORT, sort) {
 function convertEN(string) {
   return dataClassify.en[dataClassify.vn.indexOf(string)];
 }
-//cao cap - tam trung - co ban ==
+//cao cap - tam trung - co ban
 function convertVN(string) {
   return dataClassify.vn[dataClassify.en.indexOf(string)];
 }
@@ -275,7 +275,9 @@ function renderProduct(products) {
                         </div>
                         <div class="product__item--infor">
                             <h4>${item.title}</h4>
-                            <h4>${item.color}</h4>
+                            <h4>Mực:${item.color}</h4>
+                            <h4>Loại bút:${item.classify}</h4>
+
                             <div class="product__item--price">${convertMoney(
                               item.price
                             )}</div>

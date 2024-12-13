@@ -36,7 +36,7 @@ $(document).ready(function () {
         if(intACC !== -1) {
             alert('Đăng nhập thành công')
             localStorage.setItem('taiKhoang', true)
-            window.location.href = '/../../index.html'
+            window.location.href = './index.html'
         } else {
             $('.errorTK').text('Sai tài khoản hoặc mật khẩu')
         }
