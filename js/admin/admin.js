@@ -155,11 +155,7 @@ Array.from(listControlItems).forEach((item) => {
                             Chỉnh sửa
                         </span>
                     </li>
-                    <li class="function__item" data-value="delete">
-                        <span class="function__item-title">
-                            Xóa
-                        </span>
-                    </li>
+
 
 
                 </ul>
@@ -271,7 +267,6 @@ Array.from(listControlItems).forEach((item) => {
                             <td>Đã xử lý</td>
                             <td>
                                 <button class="product-table__update-btn product-table-btn">Sửa</button>
-                                <button class="product-table__delete-btn product-table-btn">Xóa</button>
                             </td>
                         </tr>
 
@@ -303,11 +298,7 @@ Array.from(listControlItems).forEach((item) => {
                             Chỉnh sửa
                         </span>
                     </li>
-                    <li class="function__item" value="delete">
-                        <span class="function__item-title" >
-                            Xóa
-                        </span>
-                    </li>
+
 
 
                 </ul>
@@ -1221,7 +1212,6 @@ function initUserPage() {
                 <td>${user.address}</td>
                 <td>
                             <button class="product-table__update-btn product-table-btn">Sửa</button>
-                            <button class="product-table__delete-btn product-table-btn">Xóa</button>
                         </td>
             </tr>
              `;
