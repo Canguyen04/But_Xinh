@@ -81,6 +81,6 @@ const login = () => {
   passwordEl = document.getElementById("password").value;
   console.log("passwordEl: ", passwordEl);
   if (emailEl == "duongbinhminh" && passwordEl == "duongbinhminh") {
-    window.location.href = "/admin.html";
+    window.location.href = "admin.html";
   }
 };

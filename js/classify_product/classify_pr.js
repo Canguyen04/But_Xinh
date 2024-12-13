@@ -6,7 +6,7 @@ let PRICE_TRUNG = 10000000;
 $(document).ready(function () {
   let dataProductsClassify = [];
   $(".title_list--products span").text(convertVN(param));
-  $.getJSON("/js/data.json").done((data) => {
+  $.getJSON("js/data.json").done((data) => {
     dataProductsClassify = [...data.dataProducts];
     if (param === "bút bi") {
       dataProductsClassify = dataProductsClassify.filter(

@@ -8,11 +8,11 @@ Array.from(listControlItems).forEach((item) => {
     if (activeItem) {
       activeItem.classList.remove("active");
     }
-    if (item.getAttribute("data-value") === "thong-ke") {
+    if (item.getAttribute("data-value") === "trang-chu") {
       item.classList.add("active");
       contentContainer.innerHTML = `
                 <div class="top-line">
-                <h1 class="top-line__heading">THỐNG KÊ</h1>
+                <h1 class="top-line__heading">Trang Chủ</h1>
             </div>
             <div class="filter">
                 <div class="filter__container">
@@ -745,9 +745,7 @@ function initProductPage() {
                 <tr class="product-table__row">
                             <td>${product.productID}</td>
                             <td>${product.name}</td>
-                            <td>${money.formatCurrencytoVND(
-                              product.price
-                            )}</td>
+                            <td>${money.formatCurrencytoVND(product.price)}</td>
                             <td>${product.color}</td>
                             <td style="text-transform: capitalize;">${
                               product.brand
@@ -789,7 +787,7 @@ function initProductPage() {
     }
   }
   let listnib = [];
-  let listtype  = [];
+  let listtype = [];
   let productId = document.getElementById("product-id");
   let productName = document.getElementById("product-name");
   let productPrice = document.getElementById("product-price");
@@ -806,7 +804,7 @@ function initProductPage() {
     productBrand.selectedIndex = -1; // Bỏ chọn option trong select
     productIMG.value = "";
     listtype = [];
-    listnib= [];
+    listnib = [];
     Array.from(listnibCheckbox).forEach((item) => (item.checked = false));
     Array.from(listtypeCheckbox).forEach((item) => (item.checked = false));
     validate.hideAllErrMessage(listErrorMessage);
@@ -903,7 +901,7 @@ function initProductPage() {
         productIMG.value,
         productBrand.value,
         listtype,
-        listnib,
+        listnib
       );
       resetValue();
       renderProductToTable();
@@ -937,7 +935,7 @@ function initProductPage() {
     } else {
       console.error(`Không tìm thấy option với giá trị ${productItem.brand}`);
     }
-    
+
     Array.from(listnibCheckbox).forEach((item) => {
       productItem.nib.forEach((value) => {
         if (item.getAttribute("data-value") === value) {
@@ -1009,7 +1007,7 @@ function initProductPage() {
       productIMG.value,
       productBrand.value,
       listtype,
-      listnib,
+      listnib
     );
   }
 
@@ -1305,7 +1303,7 @@ function initUserPage() {
       fullName,
       address,
       permission,
-      status,
+      status
     );
     const newList = User.getUsers();
 
@@ -1446,7 +1444,9 @@ function initDashboardPage() {
       }
       if (item.dataset.value === "total-price") {
         const a = Invoice.calculateRevenueByMonth(month);
-        item.querySelector(".box-analysis__number").innerText = `${a.toLocaleString()} VND`;
+        item.querySelector(
+          ".box-analysis__number"
+        ).innerText = `${a.toLocaleString()} VND`;
       }
       if (item.dataset.value === "total-invoice") {
         const a = Invoice.getTotalInvoiceByMonth(month);
@@ -1518,7 +1518,10 @@ function initDashboardPage() {
         );
 
         const revenueCell = document.createElement("td");
-        revenueCell.textContent = Invoice.calculateRevenueByBrand(item.toLowerCase(), month);
+        revenueCell.textContent = Invoice.calculateRevenueByBrand(
+          item.toLowerCase(),
+          month
+        );
 
         row.appendChild(brandCell);
         row.appendChild(quantityCell);
@@ -1572,14 +1575,14 @@ function initDashboardPage() {
         row.appendChild(invoicesCell);
 
         tableBody.appendChild(row);
-      });    
-    }  
+      });
+    }
 
     function viewInvoices(customerId) {
       // Xử lý xem hóa đơn của khách hàng
       const invoices = Invoice.getInvoicesByCustomer(customerId);
       alert(JSON.stringify(invoices, null, 2));
-    }  
+    }
   }
   renderTable();
 }

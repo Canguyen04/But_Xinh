@@ -31,7 +31,7 @@ let memmorySelected = "";
 //handle
 
 $(document).ready(function () {
-  $.getJSON("/js/data.json").done(() => {
+  $.getJSON("js/data.json").done(() => {
     renderProduct();
   });
 

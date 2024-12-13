@@ -4,7 +4,7 @@
     {
       "id": "pr1",
       "classify": "butbi",
-      "img": "/Hinhanh/butbi/TL1.webp",
+      "img": "Hinhanh/butbi/TL1.webp",
       "title": "Thiên Long",
       "more": ["Bút bi - Eco Style Thiên Long"],
       "color": ["Màu mực : xanh dương, đen"]
@@ -12,7 +12,7 @@
     {
       "id": "pr10",
       "classify": "butbi",
-      "img": "/Hinhanh/butbi/HH2.webp",
+      "img": "Hinhanh/butbi/HH2.webp",
       "title": "Hồng Hà",
       "more": ["Bút bi - Quốc dân Hồng Hà"],
       "color": ["Màu mực : xanh dương, đỏ & đen"]
@@ -20,7 +20,7 @@
     {
       "id": "pr20",
       "classify": "butchi",
-      "img": "/Hinhanh/butchi/TL3.webp",
+      "img": "Hinhanh/butchi/TL3.webp",
       "title": "Thiên Long",
       "more": ["Bút chì mỹ thuật Thiên Long 5B"],
       "color": [""]
@@ -30,7 +30,7 @@
     {
       "id": "pr1",
       "classify": "butbi",
-      "img": "/Hinhanh/butbi/TL1.webp",
+      "img": "Hinhanh/butbi/TL1.webp",
       "title": "Thiên Long",
       "color": ["xanh", "tím", "đỏ", "đen"],
       "price": [15000]
@@ -38,7 +38,7 @@
     {
       "id": "pr2",
       "classify": "butbi",
-      "img": "/Hinhanh/butbi/TL2.webp",
+      "img": "Hinhanh/butbi/TL2.webp",
       "title": "Thiên Long",
       "color": ["xanh", "tím", "đỏ", "đen"],
       "price": [15011]
@@ -46,7 +46,7 @@
     {
       "id": "pr3",
       "classify": "butbi",
-      "img": "/Hinhanh/butbi/TL3.webp",
+      "img": "Hinhanh/butbi/TL3.webp",
       "title": "Thiên Long",
       "color": ["xanh", "tím", "đỏ", "đen"],
       "price": [28734]
@@ -54,7 +54,7 @@
     {
       "id": "pr4",
       "classify": "butbi",
-      "img": "/Hinhanh/butbi/TL4.webp",
+      "img": "Hinhanh/butbi/TL4.webp",
       "title": "Thiên Long",
       "color": ["xanh", "tím", "đỏ", "đen"],
       "price": [39093]
@@ -62,7 +62,7 @@
     {
       "id": "pr5",
       "classify": "butbi",
-      "img": "/Hinhanh/butbi/TL5.webp",
+      "img": "Hinhanh/butbi/TL5.webp",
       "title": "Thiên Long",
       "color": ["xanh", "tím", "đỏ", "đen"],
       "price": [8650]
@@ -70,7 +70,7 @@
     {
       "id": "pr6",
       "classify": "butbi",
-      "img": "/Hinhanh/butbi/TL6.webp",
+      "img": "Hinhanh/butbi/TL6.webp",
       "title": "Thiên Long",
       "color": ["xanh", "tím", "đỏ", "đen"],
       "price": [33602]
@@ -78,7 +78,7 @@
     {
       "id": "pr7",
       "classify": "butbi",
-      "img": "/Hinhanh/butbi/TL7.webp",
+      "img": "Hinhanh/butbi/TL7.webp",
       "title": "Thiên Long",
       "color": ["xanh", "tím", "đỏ", "đen"],
       "price": [25082]
@@ -86,7 +86,7 @@
     {
       "id": "pr8",
       "classify": "butbi",
-      "img": "/Hinhanh/butbi/TL8.webp",
+      "img": "Hinhanh/butbi/TL8.webp",
       "title": "Thiên Long",
       "color": ["xanh", "tím", "đỏ", "đen"],
       "price": [42324]
@@ -94,7 +94,7 @@
     {
       "id": "pr9",
       "classify": "butbi",
-      "img": "/Hinhanh/butbi/HH1.webp",
+      "img": "Hinhanh/butbi/HH1.webp",
       "title": "Hồng Hà",
       "color": ["xanh", "tím", "đỏ", "đen"],
       "price": [31835]
@@ -102,7 +102,7 @@
     {
       "id": "pr10",
       "classify": "butbi",
-      "img": "/Hinhanh/butbi/HH2.webp",
+      "img": "Hinhanh/butbi/HH2.webp",
       "title": "Hồng Hà",
       "color": ["xanh", "tím", "đỏ", "đen"],
       "price": [26569]
@@ -110,7 +110,7 @@
     {
       "id": "pr11",
       "classify": "butbi",
-      "img": "/Hinhanh/butbi/HH3.webp",
+      "img": "Hinhanh/butbi/HH3.webp",
       "title": "Hồng Hà",
       "color": ["xanh", "tím", "đỏ", "đen"],
       "price": [13693]
@@ -118,7 +118,7 @@
     {
       "id": "pr12",
       "classify": "butbi",
-      "img": "/Hinhanh/butbi/HH4.webp",
+      "img": "Hinhanh/butbi/HH4.webp",
       "title": "Hồng Hà",
       "color": ["xanh", "tím", "đỏ", "đen"],
       "price": [27802]
@@ -126,7 +126,7 @@
     {
       "id": "pr13",
       "classify": "butbi",
-      "img": "/Hinhanh/butbi/HH5.webp",
+      "img": "Hinhanh/butbi/HH5.webp",
       "title": "Hồng Hà",
       "color": ["xanh", "tím", "đỏ", "đen"],
       "price": [41110]
@@ -134,7 +134,7 @@
     {
       "id": "pr14",
       "classify": "butbi",
-      "img": "/Hinhanh/butbi/BN1.webp",
+      "img": "Hinhanh/butbi/BN1.webp",
       "title": "Bến Nghé",
       "color": ["xanh", "tím", "đỏ", "đen"],
       "price": [17984]
@@ -142,7 +142,7 @@
     {
       "id": "pr15",
       "classify": "butbi",
-      "img": "/Hinhanh/butbi/BN2.webp",
+      "img": "Hinhanh/butbi/BN2.webp",
       "title": "Bến Nghé",
       "color": ["xanh", "tím", "đỏ", "đen"],
       "price": [18237]
@@ -150,7 +150,7 @@
     {
       "id": "pr16",
       "classify": "butbi",
-      "img": "/Hinhanh/butbi/BN3.webp",
+      "img": "Hinhanh/butbi/BN3.webp",
       "title": "Bến Nghé",
       "color": ["xanh", "tím", "đỏ", "đen"],
       "price": [36485]
@@ -158,7 +158,7 @@
     {
       "id": "pr17",
       "classify": "butbi",
-      "img": "/Hinhanh/butbi/BN4.webp",
+      "img": "Hinhanh/butbi/BN4.webp",
       "title": "Bến Nghé",
       "color": ["xanh", "tím", "đỏ", "đen"],
       "price": [26686]
@@ -167,7 +167,7 @@
     {
       "id": "pr18",
       "classify": "butchi",
-      "img": "/Hinhanh/butchi/TL1.webp",
+      "img": "Hinhanh/butchi/TL1.webp",
       "title": "Thiên Long",
       "color": ["xanh", "tím", "đỏ", "đen"],
       "price": [12000]
@@ -175,7 +175,7 @@
     {
       "id": "pr19",
       "classify": "butchi",
-      "img": "/Hinhanh/butchi/TL2.webp",
+      "img": "Hinhanh/butchi/TL2.webp",
       "title": "Thiên Long",
       "color": ["xanh", "tím", "đỏ", "đen"],
       "price": [15000]
@@ -183,7 +183,7 @@
     {
       "id": "pr20",
       "classify": "butchi",
-      "img": "/Hinhanh/butchi/TL3.webp",
+      "img": "Hinhanh/butchi/TL3.webp",
       "title": "Thiên Long",
       "color": ["xanh", "tím", "đỏ", "đen"],
       "price": [7000]
@@ -191,7 +191,7 @@
     {
       "id": "pr21",
       "classify": "butchi",
-      "img": "/Hinhanh/butchi/TL4.webp",
+      "img": "Hinhanh/butchi/TL4.webp",
       "title": "Thiên Long",
       "color": ["xanh", "tím", "đỏ", "đen"],
       "price": [10000]
@@ -199,7 +199,7 @@
     {
       "id": "pr22",
       "classify": "butchi",
-      "img": "/Hinhanh/butchi/TL5.webp",
+      "img": "Hinhanh/butchi/TL5.webp",
       "title": "Thiên Long",
       "color": ["xanh", "tím", "đỏ", "đen"],
       "price": [17000]
@@ -207,7 +207,7 @@
     {
       "id": "pr23",
       "classify": "butchi",
-      "img": "/Hinhanh/butchi/TL6.webp",
+      "img": "Hinhanh/butchi/TL6.webp",
       "title": "Thiên Long",
       "color": ["xanh", "tím", "đỏ", "đen"],
       "price": [6000]
@@ -215,7 +215,7 @@
     {
       "id": "pr24",
       "classify": "butchi",
-      "img": "/Hinhanh/butchi/HH1.webp",
+      "img": "Hinhanh/butchi/HH1.webp",
       "title": "Hồng Hà",
       "color": ["xanh", "tím", "đỏ", "đen"],
       "price": [13000]
@@ -223,7 +223,7 @@
     {
       "id": "pr25",
       "classify": "butchi",
-      "img": "/Hinhanh/butchi/HH2.webp",
+      "img": "Hinhanh/butchi/HH2.webp",
       "title": "Hồng Hà",
       "color": ["xanh", "tím", "đỏ", "đen"],
       "price": [11000]
@@ -231,7 +231,7 @@
     {
       "id": "pr26",
       "classify": "butchi",
-      "img": "/Hinhanh/butchi/HH3.webp",
+      "img": "Hinhanh/butchi/HH3.webp",
       "title": "Hồng Hà",
       "color": ["xanh", "tím", "đỏ", "đen"],
       "price": [9000]
@@ -239,7 +239,7 @@
     {
       "id": "pr27",
       "classify": "butchi",
-      "img": "/Hinhanh/butchi/HH4.webp",
+      "img": "Hinhanh/butchi/HH4.webp",
       "title": "Hồng Hà",
       "color": ["xanh", "tím", "đỏ", "đen"],
       "price": [5000]
@@ -247,7 +247,7 @@
     {
       "id": "pr28",
       "classify": "butchi",
-      "img": "/Hinhanh/butchi/HH5.webp",
+      "img": "Hinhanh/butchi/HH5.webp",
       "title": "Hồng Hà",
       "color": ["xanh", "tím", "đỏ", "đen"],
       "price": [14000]
@@ -255,7 +255,7 @@
     {
       "id": "pr29",
       "classify": "butchi",
-      "img": "/Hinhanh/butchi/HH6.webp",
+      "img": "Hinhanh/butchi/HH6.webp",
       "title": "Hồng Hà",
       "color": ["xanh", "tím", "đỏ", "đen"],
       "price": [20000]
@@ -264,7 +264,7 @@
     {
       "id": "pr30",
       "classify": "butlong",
-      "img": "/Hinhanh/butlong/TL1.webp",
+      "img": "Hinhanh/butlong/TL1.webp",
       "title": "Thiên Long",
       "color": ["xanh", "tím", "đỏ", "đen"],
       "price": [25000]
@@ -272,7 +272,7 @@
     {
       "id": "pr31",
       "classify": "butlong",
-      "img": "/Hinhanh/butlong/TL2.webp",
+      "img": "Hinhanh/butlong/TL2.webp",
       "title": "Thiên Long",
       "color": ["xanh", "tím", "đỏ", "đen"],
       "price": [25000]
@@ -280,7 +280,7 @@
     {
       "id": "pr32",
       "classify": "butlong",
-      "img": "/Hinhanh/butlong/TL3.webp",
+      "img": "Hinhanh/butlong/TL3.webp",
       "title": "Thiên Long",
       "color": ["xanh", "tím", "đỏ", "đen"],
       "price": [25000]
@@ -288,7 +288,7 @@
     {
       "id": "pr33",
       "classify": "butlong",
-      "img": "/Hinhanh/butlong/TL4.webp",
+      "img": "Hinhanh/butlong/TL4.webp",
       "title": "Thiên Long",
       "color": ["xanh", "tím", "đỏ", "đen"],
       "price": [25000]
@@ -296,7 +296,7 @@
     {
       "id": "pr34",
       "classify": "butlong",
-      "img": "/Hinhanh/butlong/HH1.webp",
+      "img": "Hinhanh/butlong/HH1.webp",
       "title": "Hồng Hà",
       "color": ["xanh", "tím", "đỏ", "đen"],
       "price": [27000]
@@ -304,7 +304,7 @@
     {
       "id": "pr35",
       "classify": "butlong",
-      "img": "/Hinhanh/butlong/HH2.webp",
+      "img": "Hinhanh/butlong/HH2.webp",
       "title": "Hồng Hà",
       "color": ["xanh", "tím", "đỏ", "đen"],
       "price": [27000]
@@ -312,7 +312,7 @@
     {
       "id": "pr36",
       "classify": "butlong",
-      "img": "/Hinhanh/butlong/HH3.webp",
+      "img": "Hinhanh/butlong/HH3.webp",
       "title": "Hồng Hà",
       "color": ["xanh", "tím", "đỏ", "đen"],
       "price": [27000]
@@ -320,7 +320,7 @@
     {
       "id": "pr37",
       "classify": "butlong",
-      "img": "/Hinhanh/butlong/BN1.webp",
+      "img": "Hinhanh/butlong/BN1.webp",
       "title": "Bến Nghé",
       "color": ["xanh", "tím", "đỏ", "đen"],
       "price": [26500]
@@ -328,7 +328,7 @@
     {
       "id": "pr38",
       "classify": "butlong",
-      "img": "/Hinhanh/butlong/BN2.webp",
+      "img": "Hinhanh/butlong/BN2.webp",
       "title": "Bến Nghé",
       "color": ["xanh", "tím", "đỏ", "đen"],
       "price": [26500]
@@ -336,7 +336,7 @@
     {
       "id": "pr39",
       "classify": "butlong",
-      "img": "/Hinhanh/butlong/BN3.webp",
+      "img": "Hinhanh/butlong/BN3.webp",
       "title": "Bến Nghé",
       "color": ["xanh", "tím", "đỏ", "đen"],
       "price": [26500]
@@ -344,7 +344,7 @@
     {
       "id": "pr40",
       "classify": "butlong",
-      "img": "/Hinhanh/butlong/BN4.webp",
+      "img": "Hinhanh/butlong/BN4.webp",
       "title": "Bến Nghé",
       "color": ["xanh", "tím", "đỏ", "đen"],
       "price": [26500]
