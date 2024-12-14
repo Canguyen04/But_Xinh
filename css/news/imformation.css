@@ -6,7 +6,7 @@
     height: 450px;
     position: relative;
     opacity: 0.8;
-    background-image: url('/img/news/redmi10.jpg');
+    background-image: url('img/news/redmi10.jpg');
     background-position: center;
     background-size: cover;
     transition: 0.5s;
