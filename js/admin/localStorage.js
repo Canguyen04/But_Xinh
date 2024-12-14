@@ -17,19 +17,19 @@ if(Invoice.getInvoices() === null){
 }
 
 function redirectToOrderPage() {
-    location.href = './checkout.html'
+    location.href = 'checkout.html'
 }
 
 function redirectToAdminPage() {
-    location.href = './admin.html'
+    location.href = 'admin.html'
 }
 
 function redirectToProductPage() {
-    location.href = './product.html'
+    location.href = 'product.html'
 }
 
 function redirectToIndexPage(){
-    location.href = './index.html'
+    location.href = 'index.html'
 }
 
 if (User.getUsers() === null) {
