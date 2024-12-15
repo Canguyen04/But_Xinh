@@ -118,7 +118,10 @@ function renderCart() {
                 <p>Tổng</p>
                 <h3>${convertMoney(sumNotVoucher() - priceVOUCHER)}</h3>
             </div>
+        <!--
         <a href="shopping_cart_2.html" class="btn btn-danger">Thanh toán ngay</a>
+        -->
+        <button class="btn btn-danger">Thanh toán ngay</a>
     `
   );
 }

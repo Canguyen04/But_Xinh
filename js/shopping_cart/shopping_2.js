@@ -14,16 +14,20 @@ $(document).ready(function () {
           `
                 <div>
                     <h4>${item.title}</h4>
-                    <p class="text-muted">Dung lượng: ${item.memory}</p>
-                    <p class="text-muted">Giá: ${convertMoney(item.price)}</p>
-                    <p class="text-muted">Số lượng: ${getCountItem(
+                    <!--
+                    <p class="text">Dung lượng: ${item.memory}</p>
+                    -->
+                    <p class="text">Giá: ${convertMoney(item.price)}</p>
+                    <p class="text">Số lượng: ${getCountItem(
                       carts,
                       item.id,
                       item.price
                     )}</p>
+                    <!--
                     <h5 class="text-muted">${convertMoney(
                       item.price * getCountItem(carts, item.id, item.price)
                     )}</h5>
+                    -->
                 </div>
             `
       )
@@ -55,7 +59,9 @@ $(document).ready(function () {
                 </div>
             </div>
         <a onclick="checkDuLieu()" class="btn btn-danger">Thanh toán ngay</a>
+        <!--
         <a href="html/shopping__cart/shopping_cart_3.html" class="btn btn-danger btn-sm">Bỏ qua nếu test</a>
+        -->
         `
     );
   getRandom = () => {
