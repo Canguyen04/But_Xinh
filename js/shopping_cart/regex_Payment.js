@@ -14,7 +14,7 @@ let diachi = () => {
 
 function checkDuLieu() {
   if (rename && phone && address && email && diachi()) {
-    window.location.href = "/html/shopping__cart/shopping_cart_3.html";
+    window.location.href = "shopping_cart_3.html";
   } else {
     alert("Vui lòng điền thông tin theo theo cầu");
   }

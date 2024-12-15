@@ -81,7 +81,7 @@ $(document).ready(function () {
   });
 
   function loadHeader() {
-    $("#header").load("html/header/header.html", () => {
+    $("#header").load("header.html", () => {
       renderBrands();
       renderNavClassify();
       handleMobileNav();
@@ -102,17 +102,17 @@ $(document).ready(function () {
   }
   const handleSerch = () => {
     let valueSearch = $("#search").val().toLowerCase();
-    window.location.href = `html/search/search.html?search=${valueSearch}`;
+    window.location.href = `search.html?search=${valueSearch}`;
   };
   function loadFooter() {
-    $("#footer").load("html/footer/footer.html");
+    $("#footer").load("footer.html");
   }
   function renderBrands() {
     dataBrands.map((name) => {
       $(".nav__level2--brand").append(
         `
                 <li class="nav__item">
-                    <a href="html/list--product/list_products.html?name=${name}">${name}</a>
+                    <a href="list_products.html?name=${name}">${name}</a>
                 </li>
                 `
       );
@@ -123,7 +123,7 @@ $(document).ready(function () {
       $(".nav__level2--classify").append(
         `
                     <li class="nav__item">
-                        <a href="html/classify-product/classify_product.html?classify=${convertEN(
+                        <a href="classify_product.html?classify=${convertEN(
                           item
                         )}">${item}</a>
                     </li>
@@ -144,7 +144,7 @@ $(document).ready(function () {
                             
                             <p><a 
                             class="btn btn-lg btn-primary" 
-                            href="html/product/product.html?id=${item.id}"
+                            href="product.html?id=${item.id}"
                             role="button">Mua Ngay</a></p>
                         </div>
                         <div class="mySlide__img">
@@ -162,7 +162,7 @@ $(document).ready(function () {
     dataPopulation.map((item) => {
       $(".menu__select--population").append(
         `
-                <li ><a href="html/product/product.html?id=${item.id}">${item.title}</a></li>
+                <li ><a href="product.html?id=${item.id}">${item.title}</a></li>
                 `
       );
     });
@@ -269,7 +269,7 @@ function renderProduct(products) {
         item.id
       } class="product__item none__tedec col-xs-12 col-sm-6 col-md-4 col-lg-3">
                 <div class = "product__item2">
-                    <a href="html/product/product.html?id=${item.id}">
+                    <a href="product.html?id=${item.id}">
                         <div class="product__item--img">
                             <img clas="img-responsive" src=${item.img} alt="">
                         </div>

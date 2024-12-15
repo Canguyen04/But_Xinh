@@ -11,7 +11,7 @@ $(document).ready(function () {
             arrTK = [$('#email').val(), $('.password').val()]
             account.push(arrTK)
             localStorage.setItem('listAcc', JSON.stringify(account))
-            window.location.href = './login.html'
+            window.location.href = 'login.html'
         } else {
             alert('Vui lòng nhập đúng thông tin')
         }
