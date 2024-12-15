@@ -477,6 +477,7 @@ Array.from(listControlItems).forEach((item) => {
                     <div class="filter__button">Lọc</div>
                 </div>
             </div>
+            
             <div class="content__container">
                 <form id="form-admin">
                     <div class="form-container">
@@ -542,10 +543,12 @@ Array.from(listControlItems).forEach((item) => {
                     <tbody class="product-table__list">
                         <tr class="product-table__row product-table__row--clicked">
                             <td>1</td>
-                            <td>Samsung Galaxy S23 Ultra 256GB</td>
-                            <td>10000000</td>
-                            <td>9000000</td>
-                            <td>Đã xử lý</td>
+                            <td>Bút bi Thiên Long TL-09</td>
+                            <td>12000</td>
+                            <td>Xanh</td>
+                            <td>Thiên Long</td>
+                            <td>Bi</td>
+                            <td>0.7mm</td>
                             <td>
                                 <button class="product-table__see-btn product-table-btn">Xem</button>
                             </td>
