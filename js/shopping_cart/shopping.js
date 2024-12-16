@@ -118,7 +118,10 @@ function renderCart() {
                 <p>Tổng</p>
                 <h3>${convertMoney(sumNotVoucher() - priceVOUCHER)}</h3>
             </div>
+        <!--
         <a href="shopping_cart_2.html" class="btn btn-danger">Thanh toán ngay</a>
+        -->
+        <button class="btn btn-danger" onclick="paymentCheck()">Thanh toán ngay</a>
     `
   );
 }
@@ -126,4 +129,17 @@ function sumNotVoucher() {
   let sum = 0;
   carts.map((item) => (sum += Number(item.price)));
   return sum;
+}
+
+
+function paymentCheck() {
+  let check = localStorage.getItem('taiKhoang')
+  if (check){
+    window.location.href = 'shopping_cart_2.html'
+  }else {
+    let check2 = confirm('Bạn chưa đăng nhập, bạn có muốn chuyển sang trang đăng nhập không?')
+    if (check2){
+      window.location.href = 'login.html'
+    } 
+  }
 }
